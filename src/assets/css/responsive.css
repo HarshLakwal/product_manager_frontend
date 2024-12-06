@@ -1,0 +1,452 @@
+/* responsive 330 */
+@media only screen and (max-width: 450px) {
+    .economics_heading{
+        font-size: 20px;
+    }
+  .economics_inner {
+    display: flex;
+    justify-content: center !important;
+  }
+  .economics_assets_content {
+    justify-content: center !important;
+  }
+  .economics_container {
+    padding: 0 5vh !important;
+  }
+  .econimics_assests_container {
+    padding: 0 5vh !important;
+  }
+  .economics_current_value {
+    width: 100%;
+    margin-bottom: 5px !important;
+  }
+  .economics_current_assest {
+    padding: 0.5vh 2vh !important;
+    font-size: medium;
+    margin-left: 5px !important;
+    margin-top: 5px;
+  }
+  .economics_current_container{
+    justify-content: center !important;
+  }
+}
+
+/*responsive 767*/
+
+@media only screen and (max-width: 767px) {
+  .main_banner_section {
+    height: 45vh;
+    margin-top: 6rem;
+  }
+
+  .roadmap_innner_content_wrap {
+    position: unset;
+  }
+  .main_banner_contain h1 {
+    font-size: 26px;
+  }
+  .about_section_content {
+    position: unset;
+  }
+  .about_content h2 {
+    font-size: 30px;
+  }
+  .about_btn img {
+    width: 20px;
+    height: 25px;
+    object-fit: contain;
+    position: absolute;
+    left: 20px;
+    top: 18px;
+  }
+  .about_btn .about_btn-1 {
+    margin-right: 0;
+  }
+  .about_btn a {
+    width: 215px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 7px 0 7px 25px;
+    text-align: right;
+    position: relative;
+  }
+  .common_haeding h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .about_four_wheel_bike img {
+    width: 85%;
+    position: relative;
+    top: 15px;
+  }
+  .common_haeding {
+    margin-bottom: 1rem;
+  }
+  .content_set {
+    position: unset;
+    top: 0;
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  .common_haeding {
+    margin-bottom: 1rem;
+  }
+  .feature_card_wrap {
+    height: 425px;
+  }
+  .feature_card_bg_effect {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    transition: 0.5s all;
+  }
+  .roadmap_innner_content_wrap {
+    position: unset;
+    bottom: 3%;
+    max-width: 100%;
+  }
+  .feature_section .bg-img {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-attachment: fixed;
+  }
+
+  .tokenomics_section .bg-img {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    height: 640px;
+  }
+  .common_haeding_1 h2 {
+    font-family: HighSpeed;
+    font-size: 30px;
+  }
+  .partner_investor_logo img {
+    width: 120px;
+  }
+  .footer_section p {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .footer_buttons a {
+    color: #e4ff00;
+    margin: 0px 15px;
+    border-bottom: 1px solid #e4ff00;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 12px;
+  }
+  .footer_logo {
+    width: 150px;
+  }
+  .footer_section {
+    margin: auto;
+  }
+  .adviser_box {
+    text-align: center;
+    margin: 0rem 0 2rem 0;
+  }
+
+  a.nav-brand.main_header_logo img {
+    margin-top: 20px;
+  }
+  .main_header_logo img {
+    width: 155px;
+  }
+  .fature_card_img img {
+    width: 100%;
+  }
+
+  .tokenomics_section {
+    margin: 0;
+    padding-top: 6rem;
+  }
+  .community_four_wheel_bike::after {
+    width: 100%;
+  }
+  .chart_img p a {
+    font-size: 12px;
+  }
+  .chart_img img {
+    width: 80%;
+  }
+  .about_section bg-img {
+    display: none;
+  }
+  .about_section {
+    background-image: url(../images/road_map_bg.webp);
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+    background-position: center !important;
+    width: 100%;
+  }
+  .about_section::before {
+    content: none;
+  }
+  .tekenomics_bike {
+    display: none;
+  }
+  .fixed_socail_icon ul li a img {
+    width: 35px;
+  }
+  .common_haeding_1 {
+    right: 0;
+    left: 0;
+    /*margin-top: 3rem;*/
+  }
+  .tekenomics_dist_poins3 {
+    bottom: -36px;
+  }
+  .tekenomics_dist_poins6 {
+    bottom: -32%;
+  }
+  .tekenomics_dist_poins4 {
+    top: -15%;
+  }
+  .partner_investor_adviser_section {
+    overflow: hidden;
+  }
+  .advisor_set {
+    justify-content: unset !important;
+  }
+  .fixed_socail_icon ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 33px;
+  }
+  .feature_card_bg_effect::after {
+    width: 450px;
+  }
+  .about_section {
+    padding: 1rem 0;
+    padding-top: 6rem;
+  }
+  .feature_section {
+    margin: 0;
+  }
+  .full_chart_wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .chart_data {
+    left: 36%;
+    bottom: -40px;
+  }
+  .chart_data p {
+    font-size: 14px;
+  }
+  .main_header_menu_wrap .nav-menu li button {
+    width: 100%;
+    height: auto;
+    padding: 10px 40px 10px 0;
+  }
+  .amt_price p {
+    margin: 0;
+    font-size: 12px;
+  }
+  .presale_section {
+    margin: 5rem 0 0rem 0;
+  }
+  .inner_common_heading-1 h3 {
+    font-size: 26px;
+  }
+  .inner_common_heading-1 {
+    margin-bottom: 0rem;
+  }
+}
+
+/*responsive 992*/
+
+@media only screen and (max-width: 991px) {
+  .community_right_bike,
+  .community_left_bike {
+    margin-bottom: 3rem;
+  }
+  .tekenomics_dist_poins-l {
+    left: 0;
+  }
+  .tekenomics_dist_poins-r {
+    right: 0;
+  }
+  .common_haeding_1 img {
+    width: 90%;
+  }
+  .fixed_socail_icon {
+    right: -13px;
+  }
+  .comming_soon_heading {
+    max-width: 430px;
+    margin-left: 1rem;
+  }
+  .modal_bottom_bike {
+    max-width: 232px;
+  }
+  .advisor_img_box {
+    height: 360px;
+  }
+  .full_chart_wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .economics-chart {
+    justify-content: center;
+  }
+}
+
+/* For Ipad Media:- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main_banner_section {
+    height: 60vh;
+    width: 100%;
+  }
+  .about_content h2 {
+    font-size: 34px;
+  }
+  .about_content h5 {
+    font-size: 26px;
+  }
+  .about_content p {
+    font-size: 14px;
+  }
+  .about_section .bg-img {
+    margin: -140px 0 0 0;
+  }
+  .tekenomics_bike {
+    right: 0%;
+    width: 200px;
+    bottom: 0%;
+  }
+  .tekenomics_dist_poins-l {
+    left: 0;
+  }
+  .tekenomics_dist_poins-r {
+    right: 0;
+  }
+  .feature_card_bg_effect::after {
+    width: 444px;
+  }
+  .roadmap_inner_box p {
+    font-size: 25px;
+  }
+
+  .feature_card_wrap {
+    height: 390px;
+  }
+  .chart_data {
+    bottom: -30px;
+  }
+  .chart_data p {
+    font-size: 10px;
+  }
+  .full_chart_wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* Ipad-Pro Media:- */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .feature_section .bg-img {
+    margin: 0px 0 0 0;
+  }
+  .feature_section {
+    margin: 0;
+  }
+  .road_map_section .bg-img {
+    width: 100%;
+    margin: 0 0 0 0;
+    position: relative;
+    height: 82vh;
+  }
+  .communities_inner_content,
+  .content_set,
+  .roadmap_innner_content_wrap {
+    width: 900px;
+  }
+  .main_banner_section {
+    background-repeat: no-repeat !important;
+    background-size: 100% 69% !important;
+    background-position: top !important;
+    background-attachment: fixed !important;
+  }
+  .feature_card_bg_effect {
+    width: 90%;
+  }
+  .feature_card_bg_effect::after {
+    width: 300px;
+    left: -79px;
+    bottom: -12%;
+  }
+  .main_header_menu_wrap .nav-menu > li > a {
+    padding: 26px 5px;
+  }
+  section {
+    position: relative;
+    overflow: hidden;
+  }
+  .nav-header {
+    float: unset;
+  }
+  .fixed-top {
+    width: 100%;
+  }
+  .main_header .navigation {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+  }
+  .communities_section .bg-img {
+    height: 57vh;
+  }
+  .about_section .bg-img {
+    margin: -75px 0 0 0;
+  }
+  .common_haeding_1 {
+    top: 50px;
+  }
+  .common_haeding_1 img {
+    width: 90%;
+  }
+  .main_banner_section {
+    height: 60vh;
+  }
+  .about_section {
+    padding: 2rem 0;
+  }
+  .tekenomics_bike {
+    bottom: -3%;
+    right: 0%;
+    width: 280px;
+  }
+  .feature_detail h6 {
+    font-size: 18px;
+  }
+  .feature_detail p {
+    font-size: 12px;
+  }
+  .chart_data p {
+    font-size: 12px;
+  }
+  .full_chart_wrap {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/*responsive 1366*/
+
+@media only screen and (max-width: 1367px) {
+}
+
+/* Screen Resolution MacBook Pro Laptop 1440x990 */
+
+@media only screen and (min-width: 1367px) and (max-width: 1649px) {
+}

@@ -1,0 +1,136 @@
+.banner_img img.center_toy_img, .random_toys img.toy_with_shop_btn, .little_blue_box:after, .tunes_box:before, 
+.dreamer_box:after, .avachat_box:before, .fixit_box:after, .chief_box:before, .single_toy_img , .our_service_toy_img {
+    -webkit-animation: verticalmover 2s infinite  alternate;
+    animation: verticalmover 2s infinite  alternate;
+}
+@-webkit-keyframes verticalmover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes verticalmover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
+.random_toys img.toys_1, .random_toys img.toys_3{
+    -webkit-animation: horizontalmover 2s infinite  alternate;
+    animation: horizontalmover 2s infinite  alternate;
+}
+@-webkit-keyframes horizontalmover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+@keyframes horizontalmover {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-20px); }
+}
+
+
+
+
+/* socail -icon Ripple animation */
+
+.circle-ripple {
+    border-radius: 50%;
+    -webkit-animation: ripple 2s linear infinite;
+            animation: ripple 2s linear infinite;
+}
+
+/* remote-icon */
+
+@-webkit-keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(95, 112, 190, 0.3), 0 0 0 1em rgba(95,112,190, .3);
+      }
+      100% {
+        box-shadow: 0 0 0 1em rgba(95,112,190, .3), 0 0 0 4em rgba(95,112,190, .3);
+    }
+}
+  
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(95, 112, 190, 0.3), 0 0 0 1em rgba(95,112,190, .3);
+      }
+      100% {
+        box-shadow: 0 0 0 1em rgba(95,112,190, .3), 0 0 0 4em rgba(95,112,190, .3);
+    }
+}
+
+
+/* Twwiter */
+
+.circle-ripple-1 {
+    border-radius: 50%;
+    -webkit-animation: ripple-1 2s linear infinite;
+            animation: ripple-1 2s linear infinite;
+}
+ 
+@-webkit-keyframes ripple-1 {
+    0% {
+      box-shadow: 0 0 0 0 rgb(64, 187, 243, .3), 0 0 0 1em rgba(64, 187, 243, .3);
+    }
+    100% {
+      box-shadow: 0 0 0 1em rgba(64, 187, 243, .3), 0 0 0 4em rgba(64, 187, 243, .3);
+    }
+}
+  
+@keyframes ripple-1 {
+    0% {
+        box-shadow: 0 0 0 0 rgb(64, 187, 243, .3), 0 0 0 1em rgba(64, 187, 243, .3);
+      }
+      100% {
+        box-shadow: 0 0 0 1em rgba(64, 187, 243, .3), 0 0 0 4em rgba(64, 187, 243, .3);
+    }
+}
+
+/* email-icon */
+
+.circle-ripple-2{
+    border-radius: 50%;
+    -webkit-animation: ripple-2 2s linear infinite;
+            animation: ripple-2 2s linear infinite;
+}
+
+@-webkit-keyframes ripple-2 {
+    0% {
+      box-shadow: 0 0 0 0 rgb(0, 227, 99, .3), 0 0 0 1em rgba(0, 227, 99, .3);
+    }
+    100% {
+      box-shadow: 0 0 0 1em rgba(0, 227, 99, .3), 0 0 0 4em rgba(0, 227, 99, .3);
+    }
+}
+  
+@keyframes ripple-2 {
+    0% {
+        box-shadow: 0 0 0 0 rgb(0, 227, 99, .3), 0 0 0 1em rgba(0, 227, 99, .3);
+      }
+      100% {
+        box-shadow: 0 0 0 1em rgba(0, 227, 99, .3), 0 0 0 4em rgba(0, 227, 99, .3);
+    }
+}
+
+/* telegram-icon */
+
+.circle-ripple-3{
+    border-radius: 50%;
+    -webkit-animation: ripple-3 2s linear infinite;
+            animation: ripple-3 2s linear infinite;
+}
+
+@-webkit-keyframes ripple-3 {
+    0% {
+      box-shadow: 0 0 0 0 rgb(3, 155, 229, .3), 0 0 0 1em rgba(0, 227, 299, .3);
+    }
+    100% {
+      box-shadow: 0 0 0 1em rgba(3, 155, 229, .3), 0 0 0 4em rgba(0, 227, 299, .3);
+    }
+}
+  
+@keyframes ripple-3 {
+    0% {
+        box-shadow: 0 0 0 0 rgb(3, 155, 229, .3), 0 0 0 1em rgba(3, 155, 229, .3);
+      }
+      100% {
+        box-shadow: 0 0 0 1em rgba(3, 155, 229, .3), 0 0 0 4em rgba(3, 155, 229, .3);
+    }
+}

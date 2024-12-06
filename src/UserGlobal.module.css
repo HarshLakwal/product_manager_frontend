@@ -1,0 +1,48 @@
+.main_bg {
+    background-image: url("https://dirtrage.games/api/uploads/buy-coin_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  } 
+  .myprofile_container{
+   margin-top: -2rem;
+   
+  }
+  .myprofile_form_wrapper{
+    position: relative;
+    width: 80%;
+    padding-inline: 2rem;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+    background-color: #030c19;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+  }
+  .myprofile_input input{
+    color: rgb(175, 175, 175);
+    font-size: 15px;
+    font-weight: 600;
+    background: #1f263036;
+    border: 2px solid #1c232d;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .myprofile_container{
+      margin-inline: 1.5rem;
+      margin-top: 0;
+    }
+    .myprofile_form_wrapper{
+      width: 100%;
+      padding-inline: 1rem;
+    }
+    .myprofile_input_wrapper{
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    .myprofile_input{
+      width: 100%;
+    }
+  }
