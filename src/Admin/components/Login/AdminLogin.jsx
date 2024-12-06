@@ -20,6 +20,7 @@ const AdminLogin = () => {
         localStorage.setItem("role", res.data.admin.role);
         localStorage.setItem("token", res.data.token);
         navigate("/dashboard");
+        window.location.reload();
         toast.success("Login success");
       }
     } catch (err) {
